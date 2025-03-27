@@ -4,9 +4,10 @@ using namespace std;
 
 int main()
 {
-   int nombreJoueur(4); //Il y a 4 joueurs dans la partie
-   // nombreJoueur = nombreJoueur - 1;
-   --nombreJoueur;
-   //À partir d'ici, il y a 5 joueurs
+   double nombre(5.3);
+   nombre += 4.2;       //'nombre' vaut maintenant 9.5
+   nombre *= 2.;        //'nombre' vaut maintenant 19
+   nombre -= 1.;        //'nombre' vaut maintenant 18
+   nombre /= 3.;        //'nombre' vaut maintenant 6
    return 0;
 }
